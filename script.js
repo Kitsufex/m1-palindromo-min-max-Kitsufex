@@ -1,6 +1,5 @@
 function isPalindrome(str){
     /* Seu código aqui */
-    str = str.replaceAll("", "").toLowerCase();
     let new_str = "";
 
     for (let i = str.length; i > 0; i--) {
