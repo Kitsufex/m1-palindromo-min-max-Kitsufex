@@ -18,7 +18,8 @@ function arrayMaxMin(arr){
     for (let i = 0; i < arr.lenght; i++) {
         if (arr[i] < min) {
           min = arr[i];
-        } else if (arr[i] > max) {
+        }
+        if (arr[i] > max) {
           max = arr[i];
         }
     }
